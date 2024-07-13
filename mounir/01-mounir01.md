@@ -109,6 +109,14 @@ Travail 24. Fall Detection Using Wearable Sensors and Support Vector Machines (2
 Travail 25. Fall Detection System for Elderly People Based on Accelerometer Data and Support Vector Machine (2014) : En 2014, cette étude présente un système de détection des chutes pour les personnes âgées utilisant des données d'accéléromètre et des machines à vecteurs de support (SVM). 
 
 
+# Réponse : 
+- Bonjour Haythem,
+
+ 
+
+Voilà un très bon démarrage ! Tu constateras de tes lectures que, souvent, les travaux sur la prédiction des chutes chez les personnes âgées sont essentiellement basés sur des  données d’accéléromètres, avec l’idée de déclencher une alarme ou un sac gonflable au besoin. Cependant, l’approche est essentiellement réactive et la mise en œuvre de réponses en temps réel pose le défi des délais à respecter, en supposant que l’approche est optimale. De mon point de vue, une approche de fusion mutltimodale offre de meilleures chances de succès, en combinant des mesures sensorielles de sources multiples, des données historiques de comportement normal et d’habitudes, et en considérant l’heure de la prédiction (par exemple, les risques de chute sont plus élevés la nuit, en se levant du lit pour aller aux toilettes) etc.  Dans ces circonstances, on peut faire des prédictions suffisamment d’avance, en alertant aussi des aidants potentiels de la situation.  
+
+
 
 
 Je tiens à vous préciser que, bien que j'aie progressé dans mes lectures, je n'ai pas encore terminé d'examiner tous les articles de ma liste. Mon objectif est de m'assurer que j'assimile mieux les informations contenues dans chaque travail.  
