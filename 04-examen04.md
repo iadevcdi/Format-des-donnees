@@ -23,31 +23,31 @@ L'objectif est de comparer l'efficacité de K-means, DBSCAN et le clustering hi�
 
 # Tâches :
 
-1. **Prétraitement des données :**
+# 1. **Prétraitement des données :**
    - Choisissez un dataset parmi ceux proposés.
    - Extrayez des caractéristiques pertinentes et normalisez les données si nécessaire.
 
-2. **Application des algorithmes de clustering :**
+# 2. **Application des algorithmes de clustering :**
    - Appliquez chacun des 3 algorithmes (K-means, DBSCAN et le clustering hiérarchique) sur le dataset choisi.
 
-3. **Évaluation de la qualité du clustering :**
+# 3. **Évaluation de la qualité du clustering :**
    - Calculez et comparez les scores de silhouette pour chaque algorithme appliqué.
    - Si vous trouvez d'autres scores plus intéressants ou complémentaires (par exemple, Dunn et/ou l'indice de Davies-Bouldin), vous pouvez les appliquer en justifiant votre choix.
 
-4. **Optimisation :**
+# 4. **Optimisation :**
    - Il est nécessaire, si besoin est, de réappliquer les algorithmes avec différents paramètres, comme le DBSCAN avec des configurations variées, et de recalculer les scores de silhouette. Choisissez celui qui reflète le meilleur score de silhouette.
 
-5. **Analyse comparative :**
+# 5. **Analyse comparative :**
    - Comparez les performances des trois algorithmes sur le dataset choisi en utilisant les métriques calculées.
    - Analysez comment les performances varient en fonction des paramètres choisis et de l'algorithme utilisé.
    - D'après vous, quel est le meilleur algorithme et pourquoi ? (Résistance au bruit ? Forme des données ?)
    - Discutez des avantages et des inconvénients de chaque méthode pour la détection de chutes.
 
-6. **Interprétation des résultats :**
+# 6. **Interprétation des résultats :**
    - Pour chaque méthode et paramètres, interprétez les clusters obtenus. Peuvent-ils être associés à des chutes ou à des activités normales ?
    - Discutez de la pertinence de l'approche non supervisée pour la détection de chutes.
 
-7. **Rapport et présentation :**
+# 7. **Rapport et présentation :**
    - Rédigez un rapport détaillant la méthodologie, les résultats et les conclusions.
    - Préparez une présentation visuelle des résultats les plus significatifs.
 
