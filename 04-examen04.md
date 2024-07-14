@@ -8,10 +8,10 @@ L'objectif est de comparer l'efficacit√© de K-means, DBSCAN et le clustering hi√
 1. **Le2i Fall Dataset** : [Lien vers le dataset](https://www.kaggle.com/datasets/tuyenldvn/falldataset-imvia)
 2. **Fall Detection Dataset** : [Lien vers le dataset](https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset)
 3. **CAUCAFall Dataset** : [Lien vers le dataset](https://data.mendeley.com/datasets/7w7fccy7ky/4)
-4. **Walker Fall Detection Dataset**: [Lien vers le dataset] (https://www.kaggle.com/datasets/antonygarciag/walker-fall-detection)
-5. **KFall Dataset** : [Lien vers le dataset] (https://sites.google.com/view/kfalldataset)
-6. **Inertial Measurement Unit Fall Detection Dataset (IMU Dataset)** : [Lien vers le dataset] (https://www.frdr-dfdr.ca/repo/dataset/6998d4cd-bd13-4776-ae60-6d80221e0365)
-7. **Dataset de l'ARCO Research Group**:  [Lien vers le dataset]  (https://arcoresearch.com/2021/04/16/dataset-for-fall-detection/)
+4. **Walker Fall Detection Dataset**: [Lien vers le dataset](https://www.kaggle.com/datasets/antonygarciag/walker-fall-detection)
+5. **KFall Dataset** : [Lien vers le dataset](https://sites.google.com/view/kfalldataset)
+6. **Inertial Measurement Unit Fall Detection Dataset (IMU Dataset)** : [Lien vers le dataset](https://www.frdr-dfdr.ca/repo/dataset/6998d4cd-bd13-4776-ae60-6d80221e0365)
+7. **Dataset de l'ARCO Research Group**:  [Lien vers le dataset](https://arcoresearch.com/2021/04/16/dataset-for-fall-detection/)
 
 # Important :
 - *Pour K-means :*
