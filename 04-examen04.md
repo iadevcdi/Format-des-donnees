@@ -1,25 +1,28 @@
 # Examen : Analyse comparative des méthodes de clustering pour la détection de chutes
 
 ### Objectif :
-Comparer l'efficacité de K-means, DBSCAN et le clustering hiérarchique pour la détection non supervisée des activités journalères comme s'assoir, walking, sitting, chutes en utilisant un ou deux datasets parmi ceux proposés.
+L'objectif est de comparer l'efficacité de K-means, DBSCAN et le clustering hiérarchique pour la détection non supervisée des activités journalères comme s'assoir, walking, sitting, chutes en utilisant un ou deux datasets parmi ceux proposés.
 
-### Datasets :
+# Datasets :
+
 1. **Le2i Fall Dataset** : [Lien vers le dataset](https://www.kaggle.com/datasets/tuyenldvn/falldataset-imvia)
 2. **Fall Detection Dataset** : [Lien vers le dataset](https://www.kaggle.com/datasets/uttejkumarkandagatla/fall-detection-dataset)
-3. **CAUCAFall Dataset**
-4. **Walker Fall Detection Dataset**
-5. **KFall Dataset**
-6. **Inertial Measurement Unit Fall Detection Dataset (IMU Dataset)**
-7. **Dataset de l'ARCO Research Group**
+3. **CAUCAFall Dataset** : [Lien vers le dataset](https://data.mendeley.com/datasets/7w7fccy7ky/4)
+4. **Walker Fall Detection Dataset**: [Lien vers le dataset] (https://www.kaggle.com/datasets/antonygarciag/walker-fall-detection)
+5. **KFall Dataset** : [Lien vers le dataset] (https://sites.google.com/view/kfalldataset)
+6. **Inertial Measurement Unit Fall Detection Dataset (IMU Dataset)** : [Lien vers le dataset] (https://www.frdr-dfdr.ca/repo/dataset/6998d4cd-bd13-4776-ae60-6d80221e0365)
+7. **Dataset de l'ARCO Research Group**:  [Lien vers le dataset]  (https://arcoresearch.com/2021/04/16/dataset-for-fall-detection/)
 
-### Annexes :
-- **Pour K-means :**
+# Important :
+- *Pour K-means :*
   - Utilisez la méthode du coude pour déterminer le nombre optimal de clusters.
   - Visualisez les clusters.
   - Appliquez l'Analyse en Composantes Principales (PCA) pour visualiser les clusters en 2D ou 3D pour valider les résultats.
-  - Pour la tâche 3, vous n'êtes pas obligés d'appliquer nécessairement le score de silhouette. Si vous trouvez un score plus intéressant ou complémentaire (comme le Dunn ou l'indice de Davies-Bouldin), vous pouvez l'appliquer en justifiant votre choix.
+- Pour la *tâche 3*:
+  - Il n'est pas obligatoire de se limiter au score de silhouette ; si vous identifiez un indicateur plus pertinent ou complémentaire, comme le Dunn ou l'indice de Davies-Bouldin, vous êtes encouragés à l'utiliser en expliquant votre sélection.
 
-### Tâches :
+# Tâches :
+
 1. **Prétraitement des données :**
    - Choisissez un dataset parmi ceux proposés.
    - Extrayez des caractéristiques pertinentes et normalisez les données si nécessaire.
@@ -32,7 +35,7 @@ Comparer l'efficacité de K-means, DBSCAN et le clustering hiérarchique pour la
    - Si vous trouvez d'autres scores plus intéressants ou complémentaires (par exemple, Dunn et/ou l'indice de Davies-Bouldin), vous pouvez les appliquer en justifiant votre choix.
 
 4. **Optimisation :**
-   - Si nécessaire, réappliquez les algorithmes avec d'autres paramètres, par exemple, le DBSCAN avec d'autres paramètres, et recalculer les scores de silhouette. Gardez celui qui représente le meilleur score de silhouette.
+   - Il est nécessaire, si besoin est, de réappliquer les algorithmes avec différents paramètres, comme le DBSCAN avec des configurations variées, et de recalculer les scores de silhouette. Choisissez celui qui reflète le meilleur score de silhouette.
 
 5. **Analyse comparative :**
    - Comparez les performances des trois algorithmes sur le dataset choisi en utilisant les métriques calculées.
@@ -52,13 +55,15 @@ Comparer l'efficacité de K-means, DBSCAN et le clustering hiérarchique pour la
    - Explorez d'autres méthodes de réduction de dimensionnalité (t-SNE, UMAP) pour la visualisation des clusters.
    - Proposez et implémentez une méthode pour déterminer automatiquement le nombre optimal de clusters pour K-means et le clustering hiérarchique.
 
-### Citations :
+# Citations :
+
 1. [Machine Learning Clustering DBSCAN](https://datascientest.com/machine-learning-clustering-dbscan)
-2. [Kaggle - Machine Learning Non Supervisé](https://www.kaggle.com/code/zoupet/machine-learning-non-supervis-correction)
-3. [Principaux Algorithmes d'Apprentissage Non Supervisé](https://fr.linedata.com/principaux-algorithmes-dapprentissage-non-supervise)
-4. [Apprentissage Non Supervisé de Flux de Données Massives](https://www.researchgate.net/publication/333772967_Apprentissage_non_supervise_de_flux_de_donnees_massives_application_aux_Big_Data_d%27assurance)
-5. [Discovery Unsupervised Learning](https://fr.mathworks.com/discovery/unsupervised-learning.html)
+  
+3. [Kaggle - Machine Learning Non Supervisé](https://www.kaggle.com/code/zoupet/machine-learning-non-supervis-correction)
+   
+5. [Principaux Algorithmes d'Apprentissage Non Supervisé](https://fr.linedata.com/principaux-algorithmes-dapprentissage-non-supervise)
+   
+7. [Apprentissage Non Supervisé de Flux de Données Massives](https://www.researchgate.net/publication/333772967_Apprentissage_non_supervise_de_flux_de_donnees_massives_application_aux_Big_Data_d%27assurance)
+   
+9. [Discovery Unsupervised Learning](https://fr.mathworks.com/discovery/unsupervised-learning.html)
 
----
-
-Cet énoncé permet aux étudiants de travailler en profondeur sur différentes techniques de clustering, d'évaluer leur efficacité dans un contexte réel, et de développer leur capacité d'analyse et d'interprétation des résultats.
