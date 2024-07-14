@@ -38,9 +38,10 @@ L'objectif est de comparer l'efficacité de K-means, DBSCAN et le clustering hi�
    - Il est nécessaire, si besoin est, de réappliquer les algorithmes avec différents paramètres, comme le DBSCAN avec des configurations variées, et de recalculer les scores de silhouette. Choisissez celui qui reflète le meilleur score de silhouette.
 
 # 5. **Analyse comparative :**
-   - Comparez les performances des trois algorithmes sur le dataset choisi en utilisant les métriques calculées.
+
+   - Comparez les performances des trois algorithmes sur le dataset sélectionné en utilisant les métriques appropriées.
    - Analysez comment les performances varient en fonction des paramètres choisis et de l'algorithme utilisé.
-   - D'après vous, quel est le meilleur algorithme et pourquoi ? (Résistance au bruit ? Forme des données ?)
+   - À votre avis, quel algorithme est le meilleur et pourquoi ? (Résistance au bruit ? Adaptabilité à la forme des données ?)
    - Discutez des avantages et des inconvénients de chaque méthode pour la détection de chutes.
 
 # 6. **Interprétation des résultats :**
