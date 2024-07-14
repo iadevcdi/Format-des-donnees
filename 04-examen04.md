@@ -35,7 +35,7 @@ L'objectif est de comparer l'efficacité de K-means, DBSCAN et le clustering hi�
    - Si vous trouvez d'autres scores plus intéressants ou complémentaires (par exemple, Dunn et/ou l'indice de Davies-Bouldin), vous pouvez les appliquer en justifiant votre choix.
 
 # 4. **Optimisation :**
-   - Il est nécessaire, si besoin est, de réappliquer les algorithmes avec différents paramètres, comme le DBSCAN avec des configurations variées, et de recalculer les scores de silhouette. Choisissez celui qui reflète le meilleur score de silhouette.
+   - Il est nécessaire, de réappliquer certains algorithmes avec différents paramètres, comme le DBSCAN avec des configurations variées, et de recalculer les scores de silhouette. Choisissez celui qui reflète le meilleur score de silhouette.
 
 # 5. **Analyse comparative :**
 
